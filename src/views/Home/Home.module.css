@@ -1,0 +1,65 @@
+.blockedImage
+{
+    filter: saturate(0%) brightness(0%);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 43%;
+    left: 27.5%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Ajustar el tamaño máximo del pokemon */
+    max-height: 80vh; /* Ajustar la altura máxima del pokemon */
+}
+
+.pokedex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    position: relative; /* Añadir posición relativa al contenedor pokedex */
+}
+
+.pokemon
+{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 43%;
+    left: 27.5%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Ajustar el tamaño máximo del pokemon */
+    max-height: 80vh; /* Ajustar la altura máxima del pokemon */
+}
+
+.text
+{
+    width: 210px;
+    position: absolute;
+    top: 30%;
+    left: 61.5%;
+}
+
+.disabledText
+{
+    background-color: aquamarine;
+    text-align: center;
+    width: 210px;
+    position: absolute;
+    top: 30%;
+    left: 61.5%;
+}
+
+.button
+{
+    position: absolute;
+    top: 40%;
+    left: 68%;
+}
+
+.this
+{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
