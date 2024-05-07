@@ -57,9 +57,51 @@
     left: 68%;
 }
 
-.this
+.cheat
 {
     position: absolute;
     top: 100%;
     left: 0%;
+}
+
+.restart
+{
+    position: absolute;
+    font-size: 11px;
+    top: 78%;
+    left: 60%;
+}
+
+.correct
+{
+    position: absolute;
+    font-size: 7px;
+    color: rgb(0, 233, 78);
+    top: 94.5%;
+    left: 60%;
+}
+
+.correctNumber
+{
+    position: absolute;
+    color: white;
+    top: 97%;
+    left: 65%;
+}
+
+.wrong
+{
+    position: absolute;
+    font-size: 7px;
+    color: rgb(0, 233, 78);
+    top: 94.5%;
+    left: 77%;
+}
+
+.wrongNumber
+{
+    position: absolute;
+    color: white;
+    top: 97%;
+    left: 81%;
 }
