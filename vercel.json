@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "install": {
+      "include": ["package.json"],
+      "additional-install-args": ["--legacy-peer-deps", "@types/react", "@types/react-dom", "@types/react-router-dom"]
+    }
+  }

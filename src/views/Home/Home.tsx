@@ -81,7 +81,7 @@ export const Home = () =>
             <div className={styles.pokedex}>
 
                 <img src={Pokedex} />
-                <img src={pokemon.image} className={ show ? styles.pokemon : styles.blockedImage }/>
+                <img src={pokemon.image} draggable="false" className={ show ? styles.pokemon : styles.blockedImage }/>
 
                 {!show && <input className={styles.text} onChange={(e) => setName(e.target.value)} value={name}   />}
                 {show && <input disabled className={styles.disabledText} value={name} />}
